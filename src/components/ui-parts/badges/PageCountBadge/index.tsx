@@ -1,0 +1,1 @@
+export { PageCountBadge } from "./PageCountBadge";
