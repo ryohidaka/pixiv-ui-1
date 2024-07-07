@@ -7,7 +7,7 @@
 
 ## Overview
 
-
+React UI library inspired by Pixiv.
 
 ## Notes
 
