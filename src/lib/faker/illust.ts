@@ -15,6 +15,9 @@ export function createRandomIllustContent(): Illust {
     pageCount,
     title,
     author,
+    link: {
+      href: "https://example.com",
+    },
   };
 }
 

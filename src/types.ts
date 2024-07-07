@@ -1,3 +1,5 @@
+import { DetailedHTMLProps, ImgHTMLAttributes } from "react";
+
 export type User = {
   id: string;
   name: string;
@@ -16,4 +18,15 @@ export type Illust = {
   pageCount: number;
   title: string;
   author: User;
+  link?: AnchorProps;
 };
+
+export type ImageProps = DetailedHTMLProps<
+  ImgHTMLAttributes<HTMLImageElement>,
+  HTMLImageElement
+>;
+
+export type AnchorProps = DetailedHTMLProps<
+  React.AnchorHTMLAttributes<HTMLAnchorElement>,
+  HTMLAnchorElement
+>;
