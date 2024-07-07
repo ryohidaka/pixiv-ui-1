@@ -1,7 +1,7 @@
 {
-  "name": "react-package-template",
-  "version": "0.1.0",
-  "description": "Minimum configuration react template for publishing packages to npm.",
+  "name": "xiv-ui",
+  "version": "0.0.0",
+  "description": "",
   "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/react-package-template.git"
+    "url": "git+https://github.com/ryohidaka/xiv-ui.git"
   },
-  "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
+  "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/react-package-template/issues"
+    "url": "https://github.com/ryohidaka/xiv-ui/issues"
   },
-  "homepage": "https://github.com/ryohidaka/react-package-template#readme",
+  "homepage": "https://github.com/ryohidaka/xiv-ui#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
