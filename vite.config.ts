@@ -40,6 +40,7 @@ export default defineConfig({
         "**/**/*.stories.tsx",
         ".storybook",
         "*.config.js",
+        "src/lib/faker/*",
       ],
     },
     environment: "happy-dom",
