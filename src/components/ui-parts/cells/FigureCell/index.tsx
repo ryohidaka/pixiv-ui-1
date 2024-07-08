@@ -1,0 +1,1 @@
+export { FigureCell } from "./FigureCell";
