@@ -5,15 +5,12 @@ const mockedAuthor = {
   id: "1",
   name: "Author Name",
   avatarURL: "/sample.jpg",
+  link: { href: "/author" },
 };
-
-const mockedAuthorLink = { href: "/author" };
 
 describe("FigureCellAuthor", () => {
   test("renders correctly with all props", () => {
-    render(
-      <FigureCellAuthor author={mockedAuthor} authorLink={mockedAuthorLink} />,
-    );
+    render(<FigureCellAuthor author={mockedAuthor} />);
 
     waitFor(() => {
       // Check if the author name is rendered correctly

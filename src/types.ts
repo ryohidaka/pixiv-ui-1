@@ -4,6 +4,7 @@ export type User = {
   id: string;
   name: string;
   avatarURL: string;
+  link?: AnchorProps;
 };
 
 export type Image = {

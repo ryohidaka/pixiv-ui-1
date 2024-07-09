@@ -28,6 +28,7 @@ function App() {
     id: "1",
     name: "Sample Author",
     avatarURL: "https://via.placeholder.com/300",
+    link: { href: "https://example.com" },
   };
 
   return (
@@ -38,7 +39,6 @@ function App() {
         title="Sample Title"
         author={author}
         figureLink="https://example.com"
-        authorLink="https://example.com"
       />
     </>
   );

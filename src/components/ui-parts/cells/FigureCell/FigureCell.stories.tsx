@@ -26,11 +26,9 @@ Default.args = {
     id: "1",
     name: "Sample Author",
     avatarURL: "https://via.placeholder.com/300",
+    link: { href },
   },
   figureLink: {
-    href,
-  },
-  authorLink: {
     href,
   },
 };
@@ -44,11 +42,9 @@ LongTitle.args = {
     id: "1",
     name: "Sample Long Long Long Author",
     avatarURL: "https://via.placeholder.com/300",
+    link: { href },
   },
   figureLink: {
-    href,
-  },
-  authorLink: {
     href,
   },
 };

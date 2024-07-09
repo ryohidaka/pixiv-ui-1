@@ -22,13 +22,9 @@ vi.mock("../../thumbnails", () => ({
 }));
 
 vi.mock("./Author", () => ({
-  FigureCellAuthor: ({
-    author,
-    authorLink,
-  }: {
-    author: User;
-    authorLink?: AnchorProps;
-  }) => <div>{authorLink && <a href={authorLink.href}>{author.name}</a>}</div>,
+  FigureCellAuthor: ({ author }: { author: User }) => (
+    <div>{author.link && <a href={author.link.href}>{author.name}</a>}</div>
+  ),
 }));
 
 vi.mock("./Title", () => ({
@@ -47,11 +43,11 @@ const mockProps: FigureCellProps = {
     id: "1",
     name: "Author Name",
     avatarURL: "/sample.jpg",
+    link: { href: "/author" },
   },
   image: { src: "/sample.jpg", alt: "Sample Image" },
   pageCount: 5,
   figureLink: { href: "/figure" },
-  authorLink: { href: "/author" },
 };
 
 describe("FigureCell", () => {
@@ -81,7 +77,7 @@ describe("FigureCell", () => {
   });
 
   test("renders correctly without optional props", () => {
-    const { pageCount, figureLink, authorLink, ...requiredProps } = mockProps;
+    const { pageCount, figureLink, ...requiredProps } = mockProps;
     render(<FigureCell {...requiredProps} />);
 
     waitFor(() => {

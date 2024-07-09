@@ -17,8 +17,6 @@ export type FigureCellProps = {
   pageCount?: number;
   /** Link properties for the figure (optional) */
   figureLink?: AnchorProps;
-  /** Link properties for the author (optional) */
-  authorLink?: AnchorProps;
 };
 
 /**
@@ -37,7 +35,6 @@ export function FigureCell({
   title,
   author,
   figureLink,
-  authorLink,
 }: FigureCellProps): JSX.Element {
   return (
     <div className="flex w-44 flex-col gap-1">
@@ -47,7 +44,7 @@ export function FigureCell({
         figureLink={figureLink}
       />
       <FigureCellTitle title={title} figureLink={figureLink} />
-      <FigureCellAuthor author={author} authorLink={authorLink} />
+      <FigureCellAuthor author={author} />
     </div>
   );
 }
