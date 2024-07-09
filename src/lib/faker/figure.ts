@@ -1,8 +1,8 @@
 import { faker } from "@faker-js/faker";
-import { Illust, Image } from "@/types";
+import { Figure, Image } from "@/types";
 import { createRandomUser } from "..";
 
-export function createRandomIllustContent(): Illust {
+export function createRandomFigureContent(): Figure {
   const id = faker.string.uuid();
   const image = createRandomImage();
   const pageCount = faker.number.int({ min: 1, max: 99 });

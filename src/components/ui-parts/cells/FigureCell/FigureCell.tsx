@@ -7,7 +7,7 @@ import { FigureCellTitle } from "./Title";
  * Props for FigureCell component
  */
 export type FigureCellProps = {
-  /** Title of the illustration */
+  /** Title of the figure */
   title: string;
   /** Author information */
   author: User;
@@ -15,8 +15,8 @@ export type FigureCellProps = {
   image: ImageProps;
   /** Number of pages (optional) */
   pageCount?: number;
-  /** Link properties for the illustration (optional) */
-  illustLink?: AnchorProps;
+  /** Link properties for the figure (optional) */
+  figureLink?: AnchorProps;
   /** Link properties for the author (optional) */
   authorLink?: AnchorProps;
 };
@@ -25,8 +25,8 @@ export type FigureCellProps = {
  * FigureCell component
  *
  * This component displays a thumbnail image, title, and author information
- * for an illustration. It also optionally displays the number of pages and links
- * for the illustration and the author.
+ * for an figure. It also optionally displays the number of pages and links
+ * for the figure and the author.
  *
  * @param {FigureCellProps} props - Properties for the component
  * @returns {JSX.Element} - The rendered component
@@ -36,7 +36,7 @@ export function FigureCell({
   pageCount = 0,
   title,
   author,
-  illustLink,
+  figureLink,
   authorLink,
 }: FigureCellProps): JSX.Element {
   return (
@@ -44,9 +44,9 @@ export function FigureCell({
       <SquareThumbnail
         image={image}
         pageCount={pageCount}
-        illustLink={illustLink}
+        figureLink={figureLink}
       />
-      <FigureCellTitle title={title} illustLink={illustLink} />
+      <FigureCellTitle title={title} figureLink={figureLink} />
       <FigureCellAuthor author={author} authorLink={authorLink} />
     </div>
   );

@@ -27,7 +27,7 @@ Default.args = {
     name: "Sample Author",
     avatarURL: "https://via.placeholder.com/300",
   },
-  illustLink: {
+  figureLink: {
     href,
   },
   authorLink: {
@@ -45,7 +45,7 @@ LongTitle.args = {
     name: "Sample Long Long Long Author",
     avatarURL: "https://via.placeholder.com/300",
   },
-  illustLink: {
+  figureLink: {
     href,
   },
   authorLink: {

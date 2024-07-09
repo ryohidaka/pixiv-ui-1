@@ -1,2 +1,2 @@
-export * from "./illust";
+export * from "./figure";
 export * from "./user";

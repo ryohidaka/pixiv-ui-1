@@ -10,7 +10,7 @@ export type Image = {
   src: string;
 };
 
-export type Illust = {
+export type Figure = {
   id: string;
   image: {
     src: string;

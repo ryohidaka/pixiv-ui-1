@@ -2,14 +2,14 @@ import { AnchorProps } from "@/types";
 
 type Props = {
   title: string;
-  illustLink?: AnchorProps;
+  figureLink?: AnchorProps;
 };
 
-export function FigureCellTitle({ title, illustLink }: Props): JSX.Element {
+export function FigureCellTitle({ title, figureLink }: Props): JSX.Element {
   return (
     <a
       className="truncate text-sm font-bold visited:text-gray-300"
-      {...illustLink}
+      {...figureLink}
     >
       {title}
     </a>

@@ -20,7 +20,7 @@ Default.args = {
   image: { src: "https://via.placeholder.com/300" },
   pageCount: 999,
   showLikeButton: true,
-  illustLink: {
+  figureLink: {
     href: "https://example.com",
   },
 };
