@@ -2,7 +2,16 @@
   "name": "xiv-ui",
   "version": "0.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "ui",
+    "design-system",
+    "react-components",
+    "uikit",
+    "components",
+    "library",
+    "pixiv"
+  ],
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
