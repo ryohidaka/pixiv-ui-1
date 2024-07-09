@@ -25,13 +25,16 @@
     "format": "npx prettier . --write",
     "docs": "npx typedoc",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_fb4a4f19aad713b"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryohidaka/xiv-ui.git"
   },
-  "author": "ryohidaka",
+  "author": {
+    "name": "ryohidaka"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryohidaka/xiv-ui/issues"
@@ -58,6 +61,7 @@
     "@vitejs/plugin-react-swc": "^3.7.0",
     "@vitest/coverage-v8": "^1.6.0",
     "autoprefixer": "^10.4.19",
+    "chromatic": "^11.5.5",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-refresh": "^0.4.7",
