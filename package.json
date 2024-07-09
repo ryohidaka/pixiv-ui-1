@@ -26,7 +26,7 @@
     "docs": "npx typedoc",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_fb4a4f19aad713b"
+    "chromatic": "npx chromatic --project-token=chpt_44e1a1260034000"
   },
   "repository": {
     "type": "git",
