@@ -1,5 +1,4 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { createRandomIllustContent } from "@/lib";
 import { FigureCell, FigureCellProps } from "./FigureCell";
 
 const meta: Meta<FigureCellProps> = {
@@ -16,14 +15,18 @@ const Template: StoryFn<FigureCellProps> = (args: FigureCellProps) => (
   <FigureCell {...args} />
 );
 
-const sampleContent = createRandomIllustContent();
-const sampleLongContent = createRandomIllustContent(true);
-
 const href = "https://example.com";
 
 export const Default = Template.bind({});
 Default.args = {
-  ...sampleContent,
+  image: { src: "https://via.placeholder.com/300" },
+  pageCount: 999,
+  title: "Sample Title",
+  author: {
+    id: "1",
+    name: "Sample Author",
+    avatarURL: "https://via.placeholder.com/300",
+  },
   illustLink: {
     href,
   },
@@ -34,7 +37,14 @@ Default.args = {
 
 export const LongTitle = Template.bind({});
 LongTitle.args = {
-  ...sampleLongContent,
+  image: { src: "https://via.placeholder.com/300" },
+  pageCount: 999,
+  title: "Sample Long Long Long Title",
+  author: {
+    id: "1",
+    name: "Sample Long Long Long Author",
+    avatarURL: "https://via.placeholder.com/300",
+  },
   illustLink: {
     href,
   },
