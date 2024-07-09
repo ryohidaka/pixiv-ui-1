@@ -30,6 +30,7 @@ function App() {
     avatarURL: "https://via.placeholder.com/300",
     link: { href: "https://example.com" },
   };
+  const link = { href: "https://example.com" };
 
   return (
     <>
@@ -38,7 +39,7 @@ function App() {
         pageCount={1}
         title="Sample Title"
         author={author}
-        figureLink="https://example.com"
+        link={link}
       />
     </>
   );

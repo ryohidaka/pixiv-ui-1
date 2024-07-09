@@ -28,7 +28,7 @@ Default.args = {
     avatarURL: "https://via.placeholder.com/300",
     link: { href },
   },
-  figureLink: {
+  link: {
     href,
   },
 };
@@ -44,7 +44,7 @@ LongTitle.args = {
     avatarURL: "https://via.placeholder.com/300",
     link: { href },
   },
-  figureLink: {
+  link: {
     href,
   },
 };

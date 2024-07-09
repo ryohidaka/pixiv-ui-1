@@ -23,7 +23,7 @@ export type SquareThumbnailProps = {
   /**
    * Optional link to figure page
    */
-  figureLink?: AnchorProps;
+  link?: AnchorProps;
 };
 
 /**
@@ -37,13 +37,10 @@ export function SquareThumbnail({
   image,
   pageCount = 0,
   showLikeButton,
-  figureLink,
+  link,
 }: SquareThumbnailProps): JSX.Element {
   return (
-    <a
-      className="relative aspect-square overflow-hidden rounded"
-      {...figureLink}
-    >
+    <a className="relative aspect-square overflow-hidden rounded" {...link}>
       {pageCount > 0 && (
         <PageCountBadge
           pageCount={pageCount}

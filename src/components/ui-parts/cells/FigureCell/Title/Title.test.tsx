@@ -3,13 +3,11 @@ import { FigureCellTitle } from ".";
 
 const mockedTitle = "Sample Title";
 
-const mockedFigureLink = { href: "/figure" };
+const mockedlink = { href: "/figure" };
 
 describe("FigureCellAuthor", () => {
   test("renders correctly with all props", () => {
-    render(
-      <FigureCellTitle title={mockedTitle} figureLink={mockedFigureLink} />,
-    );
+    render(<FigureCellTitle title={mockedTitle} link={mockedlink} />);
 
     waitFor(() => {
       // Check if the title is rendered correctly

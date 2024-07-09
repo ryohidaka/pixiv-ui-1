@@ -16,7 +16,7 @@ export type FigureCellProps = {
   /** Number of pages (optional) */
   pageCount?: number;
   /** Link properties for the figure (optional) */
-  figureLink?: AnchorProps;
+  link?: AnchorProps;
 };
 
 /**
@@ -34,16 +34,12 @@ export function FigureCell({
   pageCount = 0,
   title,
   author,
-  figureLink,
+  link,
 }: FigureCellProps): JSX.Element {
   return (
     <div className="flex w-44 flex-col gap-1">
-      <SquareThumbnail
-        image={image}
-        pageCount={pageCount}
-        figureLink={figureLink}
-      />
-      <FigureCellTitle title={title} figureLink={figureLink} />
+      <SquareThumbnail image={image} pageCount={pageCount} link={link} />
+      <FigureCellTitle title={title} link={link} />
       <FigureCellAuthor author={author} />
     </div>
   );
