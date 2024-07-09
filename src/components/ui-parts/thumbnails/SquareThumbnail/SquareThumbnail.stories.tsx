@@ -1,5 +1,4 @@
 import type { Meta, StoryFn } from "@storybook/react";
-import { createRandomImage, createRandomPageCount } from "@/lib";
 import { SquareThumbnail, SquareThumbnailProps } from "./SquareThumbnail";
 
 const meta: Meta<SquareThumbnailProps> = {
@@ -18,8 +17,8 @@ const Template: StoryFn<SquareThumbnailProps> = (
 
 export const Default = Template.bind({});
 Default.args = {
-  image: createRandomImage(),
-  pageCount: createRandomPageCount(),
+  image: { src: "https://via.placeholder.com/300" },
+  pageCount: 999,
   showLikeButton: true,
   illustLink: {
     href: "https://example.com",
