@@ -7,9 +7,7 @@
 
 ## Overview
 
-React UI library inspired by Pixiv.
-
-## Notes
+React UI library inspired by [Pixiv](https://www.pixiv.net/en/).
 
 ## Installation
 
@@ -21,7 +19,37 @@ npm install xiv-ui
 
 ## Usage
 
-## Link
+```tsx
+import { FigureCell } from "xiv-ui";
+
+function App() {
+  const image = { src: "https://via.placeholder.com/300" };
+  const author = {
+    id: "1",
+    name: "Sample Author",
+    avatarURL: "https://via.placeholder.com/300",
+  };
+
+  return (
+    <>
+      <FigureCell
+        image={image}
+        pageCount={1}
+        title="Sample Title"
+        author={author}
+        figureLink="https://example.com"
+        authorLink="https://example.com"
+      />
+    </>
+  );
+}
+
+export default App;
+```
+
+### Components
+
+- [StoryBook](https://668dc2bdff90cbd49b534740-tljspwfhvy.chromatic.com/)
 
 ## License
 
