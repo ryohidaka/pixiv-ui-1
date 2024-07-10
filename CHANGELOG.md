@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.1...v0.1.2) (2024-07-10)
+
+
+### Bug Fixes
+
+* Export modules. ([db39e40](https://github.com/ryohidaka/pixiv-ui/commit/db39e40929fa5b999a08667729d7ec34223824d7))
+
 ## [0.1.1](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.0...v0.1.1) (2024-07-10)
 
 
