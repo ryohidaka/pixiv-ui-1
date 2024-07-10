@@ -4,7 +4,7 @@
   "exclude": ["./src/example/*", "./src/vite-env.d.ts"],
   "hideGenerator": true,
   "navigationLinks": {
-    "GitHub": "https://github.com/ryohidaka/xiv-ui",
-    "npm": "https://www.npmjs.com/package/xiv-ui"
+    "GitHub": "https://github.com/ryohidaka/pixiv-ui",
+    "npm": "https://www.npmjs.com/package/pixiv-ui"
   }
 }

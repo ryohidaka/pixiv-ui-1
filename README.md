@@ -1,8 +1,8 @@
-# xiv-ui
+# pixiv-ui
 
-[![npm version](https://badge.fury.io/js/xiv-ui.svg)](https://badge.fury.io/js/xiv-ui)
-![build](https://github.com/ryohidaka/xiv-ui/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/ryohidaka/xiv-ui/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/xiv-ui)
+[![npm version](https://badge.fury.io/js/pixiv-ui.svg)](https://badge.fury.io/js/pixiv-ui)
+![build](https://github.com/ryohidaka/pixiv-ui/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/ryohidaka/pixiv-ui/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/pixiv-ui)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -14,13 +14,13 @@ React UI library inspired by [Pixiv](https://www.pixiv.net/en/).
 You can install this library using npm:
 
 ```shell
-npm install xiv-ui
+npm install pixiv-ui
 ```
 
 ## Usage
 
 ```tsx
-import { FigureCell } from "xiv-ui";
+import { FigureCell } from "pixiv-ui";
 
 function App() {
   const image = { src: "https://via.placeholder.com/300" };
