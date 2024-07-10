@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.0...v0.1.1) (2024-07-10)
+
+
+### Bug Fixes
+
+* Rename package ([b7303e2](https://github.com/ryohidaka/pixiv-ui/commit/b7303e2135cc2fdf34ede532af9bc659770faaf7))
+
 ## 0.1.0 (2024-07-09)
 
 
