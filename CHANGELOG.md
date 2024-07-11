@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.3...v0.2.0) (2024-07-11)
+
+
+### Features
+
+* Install vite-plugin-lib-inject-css ([91203f4](https://github.com/ryohidaka/pixiv-ui/commit/91203f4f053106fdb6ef9bea7325334c069471fc))
+
 ## [0.1.3](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.2...v0.1.3) (2024-07-11)
 
 
