@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.2...v0.1.3) (2024-07-11)
+
+
+### Bug Fixes
+
+* Add package stylesheet entrypoint. ([80ac8f2](https://github.com/ryohidaka/pixiv-ui/commit/80ac8f2036dba23922ac49830e06e399a060cc31))
+
 ## [0.1.2](https://github.com/ryohidaka/pixiv-ui/compare/v0.1.1...v0.1.2) (2024-07-10)
 
 
