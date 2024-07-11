@@ -15,6 +15,7 @@
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
+  "style": "./dist/style.css",
   "files": [
     "dist"
   ],
